@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="18394" started-at="2022-05-09T06:19:39 IST" finished-at="2022-05-09T06:19:57 IST">
+    <groups>
+    </groups>
+    <test name="MegaWebTest" duration-ms="18394" started-at="2022-05-09T06:19:39 IST" finished-at="2022-05-09T06:19:57 IST">
+      <class name="tests.MegaDesktopTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.MegaDesktopTest@289d1c02]" name="beforeClass" is-config="true" duration-ms="4951" started-at="2022-05-09T06:19:39 IST" finished-at="2022-05-09T06:19:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="launchMegaApplication()[pri:0, instance:tests.MegaDesktopTest@289d1c02]" name="launchMegaApplication" duration-ms="4885" started-at="2022-05-09T06:19:44 IST" finished-at="2022-05-09T06:19:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchMegaApplication -->
+        <test-method status="PASS" signature="shouldClickOnLinux()[pri:0, instance:tests.MegaDesktopTest@289d1c02]" name="shouldClickOnLinux" duration-ms="449" started-at="2022-05-09T06:19:49 IST" depends-on-methods="tests.MegaDesktopTest.launchMegaApplication" finished-at="2022-05-09T06:19:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldClickOnLinux -->
+        <test-method status="PASS" signature="shouldClickOnLinuxDistribution()[pri:0, instance:tests.MegaDesktopTest@289d1c02]" name="shouldClickOnLinuxDistribution" duration-ms="179" started-at="2022-05-09T06:19:49 IST" depends-on-methods="tests.MegaDesktopTest.shouldClickOnLinux" finished-at="2022-05-09T06:19:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldClickOnLinuxDistribution -->
+        <test-method status="PASS" signature="testLinks()[pri:0, instance:tests.MegaDesktopTest@289d1c02]" name="testLinks" duration-ms="6445" started-at="2022-05-09T06:19:49 IST" depends-on-methods="tests.MegaDesktopTest.shouldClickOnLinuxDistribution" finished-at="2022-05-09T06:19:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLinks -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.MegaDesktopTest@289d1c02]" name="tearDown" is-config="true" duration-ms="1384" started-at="2022-05-09T06:19:56 IST" finished-at="2022-05-09T06:19:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.MegaDesktopTest -->
+    </test> <!-- MegaWebTest -->
+  </suite> <!-- Suite -->
+</testng-results>
